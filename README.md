@@ -4,6 +4,7 @@
 ## Author: Pengju Sun
 
 # Abstract
+
 Visual inspection is a vital component of asset management that stands to benefit from automation. Using artificial intelligence to assist inspections can increase safety, reduce access costs, provide objective classification, and integrate with digital asset management systems. The automated detection of corrosion from images presents significant advantages in terms of corrosion inspections. The advantages include access to remote locations (wind turbine corrosion detection, underground pipeline corrosion detection, subsea pipeline corrosion detention, etc.), mitigation of risk of inspectors, cost savings, and detecting speed. The work presented here used deep learning convolutional neural networks to build automated corrosion detection models. To approach human-level accuracy, the training of a deep learning model requires a massive dataset and intensive image labeling. A large dataset of 1819 images of CORROSION and NO CORROSION were labeled by a subject matter expert (myself as a corrosion engineer). The results and findings illustrate researchers setting out to develop deep learning models for detecting and locating specialist features.
 
 # Instroduction    
@@ -161,7 +162,12 @@ In this research, we aim to have a high recall number for detecting corrosion as
 
 # Conclusion
 
-This research proposes building a deep learning model using the CNN method and automatically learning the corrosion behaviors to classify them. The results confirm that the implemented deep learning CNN algorithm is a promising tool for automated detection of corrosion. By giving a wide variety of corrosion images, our model can efficiently find the corrosion issues with high accuracy. 
+This research proposes building a deep learning model using the CNN method and automatically learning the corrosion behaviors to classify them. 
+1. The results confirm that the implemented deep learning CNN algorithm is a promising tool for automated detection of corrosion.
+
+2. By giving a wide variety of corrosion images, our model can efficiently find the corrosion issues with high accuracy. 
+
+3. A high accuracy automated corrosion detection model can reduce the cost of corrosion inspections and chances of human life in danger.
 
 # Future Work
 
